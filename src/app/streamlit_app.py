@@ -4,7 +4,7 @@ from PIL import Image
 
 def answer_user_question(dummy, dymmy):
     
-    return "This is a dummy answer"
+    return { 'response': "This is a dummy answer" }
 
 # Function to load and display the logo
 def display_logo(logo_path):
